@@ -1,3 +1,9 @@
+### v2.2.1 [view commit logs](https://github.com/marionettejs/backbone.marionette/compare/v2.2.0...v2.2.1)
+
+* Fixes
+
+  * Revert collection type checking for `collectionView`.
+
 ### v2.2.0 [view commit logs](https://github.com/marionettejs/backbone.marionette/compare/v2.1.0...v2.2.0)
 
 * Features
@@ -8,7 +14,7 @@
   * Marionette.Error
     * `captureStackTrace` cleans up stack traces
   * add view _behaviors reference to associated behaviors
-    * enabling you to easily test and spy and your behaviors
+    * enabling you to easily test and spy on your behaviors
   * CollectionViews now receive events from emptyViews in the childEvents hash
   * Regions now receive `swapOut` and `beforeSwapOut` events.
   * Application has `this.options`
